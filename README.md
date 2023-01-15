@@ -12,8 +12,8 @@ This is a MediaPipe pipeline for controlling the computer volume using hand gest
 
 1. Install MediaPipe following the instructions on the [MediaPipe website](https://mediapipe.readthedocs.io/en/latest/install.html).
 
-2. Clone this repository and navigate to the `volume_control` directory.
+2. Clone this repository and navigate to the home directory.
 
 3. Run the pipeline using the following command:
 ```bash
-mediapipe run --calculator_graph_config_file=volume_control.pbtxt --input_stream=input_video:<path_to_input_video> --output_stream=output_video:<path_to_output_video>
+python volumeControl.py
